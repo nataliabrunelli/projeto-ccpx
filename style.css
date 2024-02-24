@@ -1,0 +1,114 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FFD900;
+  padding: 20px 40px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.descricao {
+  background-color: #514988;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+h1 {
+  color: #FFD900;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.animacao {
+  padding: 20px 40px 0px 40px;
+  display: grid;
+}
+
+.descricao p {
+  font-size: 20px;
+  margin: 50px 0;
+  text-align: justify;
+}
+
+.countdown {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.countdown p {
+  display: inline;
+  color: #514988;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #E33881;
+  text-align: center;
+  margin: 10px;
+}
+
+video {
+  width: 100%;
+  place-self: end center;
+  margin-top: 25px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #FFD900;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+footer button {
+  padding: 30px 50px;
+  place-self: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #FFFFFF;
+  background-color: #514988;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  color: #FFD900;
+  transform: scale(110%);
+}
+
+.ingresso {
+  padding-bottom: 40px;
+}
